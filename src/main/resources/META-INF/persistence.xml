@@ -39,6 +39,11 @@
 
             <property name="hibernate.hbm2ddl.auto"
                       value="create" />
+<!--
+            <property name="hibernate.physical_naming_strategy"
+                      value="com.peter.model.entity.naming.CustomisedPhysicalNamingStrategy" />
+
+                      -->
         </properties>
 
     </persistence-unit>
